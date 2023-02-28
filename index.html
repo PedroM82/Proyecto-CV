@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/functions.js"></script>
+</head>
+<body onload="randomizeInfo()">
+    
+    <button type="button" id="btnRandom" onclick="randomizeInfo()"> Generar nuevo CV</button>
+    
+    <div id="navegator">
+        <img id="perfilImage">
+        <p id="completeName"></p>
+        <ul>
+            <li><a href="#aaboutMe">Sobre mi</a></li>
+            <li><a href="#aJob">Experiencia laboral</a></li>
+            <li><a href="#aHabilities">Habilidades</a></li>
+            <li><a href="#aAttitudes">Aptitudes</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#email">Contacto</a></li>
+        </ul>
+    </div>
+
+    <div class="info">
+        <div id="aaboutMe">
+            <p id="aboutMe"></p>
+        </div>
+        <div>
+            <h2 id="aJob">Experiencia laboral</h2>
+            <p id="job"></p>
+            <ul id="job_experiences"></ul>
+        </div> 
+
+        <div >
+            <h2 id="aHabilities">Habilidades</h2>
+            <ul id="habilities"></ul>
+        </div>
+
+        <div >
+            <h2 id="aAttitudes">Aptitudes</h2>
+            <ul id="attitudes"></ul>
+        </div>
+
+        <div>
+            <h2>Hobbies</h2>
+            <ul id="hobbies"></ul>
+        </div>  
+
+        <div> 
+            <h2>Contacto</h2>
+            <p id="email"></p>
+            <ul>
+                <img id="socialIcons" src="images/social/0.png" alt="">
+                <img id="socialIcons" src="images/social/1.png" alt="">
+                <img id="socialIcons" src="images/social/2.png" alt="">
+                <img id="socialIcons" src="images/social/3.png" alt="">
+            </ul>
+        
+        <p id="autor">***Proyecto final del curso "Primeros pasos del desarrollo frontend" de Argentina Programa 4.0 (2023), realizado por Pedro Moreira***</p>
+        </div>  
+
+        
+    </div>
+    
+</body>
+</html>
